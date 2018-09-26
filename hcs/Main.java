@@ -23,10 +23,12 @@ public class Main {
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
-	// public Main() {
-	// reflect = new Reflection();
-	// MinecraftForge.EVENT_BUS.register(this);
-	// }
+	/*
+	public Main() {
+		reflect = new Reflection();
+		MinecraftForge.EVENT_BUS.register(this);
+	}
+	*/
 
 	@ForgeSubscribe
 	public void onGuiRender(RenderGameOverlayEvent.Text event) {
